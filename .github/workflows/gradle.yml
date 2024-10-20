@@ -51,7 +51,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: outjar
-        path: build/libs/*
+        path: build/distributions/Visualizer-*
         retention-days: 7
 
   dependency-submission:
